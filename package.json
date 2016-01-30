@@ -1,0 +1,46 @@
+{
+  "name": "remi-runner",
+  "version": "0.0.0",
+  "description": "A remi extension that allows registering plugins that are returning promises during their registration or are registered synchronously",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/{**/,/}*.js",
+    "coverage": "istanbul cover _mocha test/{**/,/}*.js -- -R spec",
+    "precoveralls": "istanbul cover _mocha test/{**/,/}*.js --report lcovonly -- -R spec && npm i coveralls@2",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "postcoveralls": "rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remijs/runner"
+  },
+  "keywords": [
+    "remi",
+    "extension",
+    "promise",
+    "sync"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "zoltan.kochan@gmail.com",
+    "url": "http://kochan.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remijs/runner/issues"
+  },
+  "homepage": "https://github.com/remijs/runner#readme",
+  "dependencies": {
+    "run-async": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "plugiator": "^0.1.1",
+    "remi": "^0.5.0"
+  }
+}
