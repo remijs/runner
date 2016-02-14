@@ -2,10 +2,10 @@
 
 A remi extension that allows registering plugins that are returning promises during their registration or are registered synchronously
 
-[![Dependency Status](https://david-dm.org/remijs/runner/status.svg?style=flat)](https://david-dm.org/remijs/runner)
-[![Build Status](https://travis-ci.org/remijs/runner.svg?branch=master)](https://travis-ci.org/remijs/runner)
+[![Dependency Status](https://david-dm.org/remijs/remi-runner/status.svg?style=flat)](https://david-dm.org/remijs/remi-runner)
+[![Build Status](https://travis-ci.org/remijs/remi-runner.svg?branch=master)](https://travis-ci.org/remijs/remi-runner)
 [![npm version](https://badge.fury.io/js/remi-runner.svg)](http://badge.fury.io/js/remi-runner)
-[![Coverage Status](https://coveralls.io/repos/remijs/runner/badge.svg?branch=master&service=github)](https://coveralls.io/github/remijs/runner?branch=master)
+[![Coverage Status](https://coveralls.io/repos/remijs/remi-runner/badge.svg?branch=master&service=github)](https://coveralls.io/github/remijs/remi-runner?branch=master)
 
 
 ## Installation
@@ -62,4 +62,4 @@ cbPlugin.attributes = { name: 'syncPlugin' }
 
 ## License
 
-MIT
+MIT © [Zoltan Kochan](https://github.com/zkochan)
