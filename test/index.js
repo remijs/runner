@@ -15,7 +15,7 @@ describe('remi-runner', function() {
   })
 
   it('should register error-first-callback plugin', function() {
-    let plugin = plugiator.noop()
+    const plugin = plugiator.noop()
 
     return registrator
       .register({ register: plugin })
@@ -25,7 +25,7 @@ describe('remi-runner', function() {
   })
 
   it('should register synchronous plugin', function() {
-    let plugin = plugiator.anonymous((app, opts) => {})
+    const plugin = plugiator.anonymous((app, opts) => {})
 
     return registrator
       .register({ register: plugin })
@@ -35,7 +35,7 @@ describe('remi-runner', function() {
   })
 
   it('should register plugin that returns a promise', function() {
-    let plugin = plugiator.anonymous((app, opts) => Promise.resolve())
+    const plugin = plugiator.anonymous((app, opts) => Promise.resolve())
 
     return registrator.register({ register: plugin })
       .then(() => {
