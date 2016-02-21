@@ -1,6 +1,6 @@
 {
   "name": "remi-runner",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A remi extension that allows registering plugins that are returning promises during their registration or are registered synchronously",
   "files": [
     "index.js"
