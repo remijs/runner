@@ -19,6 +19,7 @@
   },
   "keywords": [
     "remi",
+    "remi-extension",
     "extension",
     "promise",
     "sync"
@@ -33,6 +34,9 @@
     "url": "https://github.com/remijs/remi-runner/issues"
   },
   "homepage": "https://github.com/remijs/remi-runner#readme",
+  "peerDependencies": {
+    "remi": "1.x.x"
+  },
   "dependencies": {
     "run-async": "^2.1.0"
   },
@@ -41,6 +45,6 @@
     "istanbul": "^0.4.2",
     "mocha": "^2.3.4",
     "plugiator": "^0.1.1",
-    "remi": "^0.5.0"
+    "remi": "1.x.x"
   }
 }
