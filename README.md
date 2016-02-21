@@ -10,10 +10,8 @@ A remi extension that allows registering plugins that are returning promises dur
 
 ## Installation
 
-This module is installed via npm:
-
-``` bash
-$ npm install remi-runner
+```
+npm install remi-runner
 ```
 
 
@@ -23,8 +21,8 @@ $ npm install remi-runner
 const remi = require('remi')
 const remiRunner = require('remi-runner')
 
-let app = {}
-let registrator = remi(app)
+const app = {}
+const registrator = remi(app)
 
 registrator.hook(remiRunner())
 
@@ -62,4 +60,4 @@ cbPlugin.attributes = { name: 'syncPlugin' }
 
 ## License
 
-MIT © [Zoltan Kochan](https://github.com/zkochan)
+MIT © [Zoltan Kochan](https://www.kochan.io)
