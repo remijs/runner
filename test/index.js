@@ -1,8 +1,7 @@
-'use strict'
-const expect = require('chai').expect
-const remi = require('remi')
-const remiRunner = require('..')
-const plugiator = require('plugiator')
+import {expect} from 'chai'
+import remi from 'remi'
+import remiRunner from '../index'
+import * as plugiator from 'plugiator'
 
 describe('remi-runner', function() {
   let app
