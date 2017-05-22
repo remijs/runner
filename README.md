@@ -1,5 +1,7 @@
 # remi-runner
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/remijs/remi-runner.svg)](https://greenkeeper.io/)
+
 A remi extension that allows registering plugins that are returning promises during their registration or are registered synchronously
 
 [![Dependency Status](https://david-dm.org/remijs/remi-runner/status.svg?style=flat)](https://david-dm.org/remijs/remi-runner)
